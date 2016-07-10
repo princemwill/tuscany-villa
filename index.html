@@ -44,29 +44,32 @@
                 <div class="navbar-header">
                     <!-- Creating hamburger menu button/collapse menu -->
                     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <!-- this line is supposed to help with screen readers handling collapsing menu -->
+                        <span class="sr-only">Toggle navigation</span>
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
                     <!-- Nav left WOT_Logo home button-->
                     <ul class="menu_logo">
-                        <li><a><img src="WOT_Logo.png" /></a></li>
+                        <li><a href="index.html"><img src="WOT_Logo.png" /></a></li>
                     </ul>
                 </div>
                 <!-- Collapsed menu settings/info -->
                 <div class="collapse navbar-collapse" id="myNavbar">
-                    <ul class="nav navbar-nav navbar-right">
+                    <ul class="nav navbar-nav>
                         <li><a href="#about">ABOUT</a></li>
                         <li><a href="#cities">CITIES</a></li>
                         <li><a href="#contact">CONTACT</a></li>
                     </ul>
                 </div>
-                <!-- Properties button nav top right-->
-                <ul>
-                    <li class="rt_nav navbar navbar-right">
-                        <a href="http://www.windowsontuscany.com/villas/" onclick="_gaq.push(['_trackEvent', 'outbound-widget-int', 'http://www.windowsontuscany.com/villas/', 'All Villas']);">Properties</a>
-                    </li>
-                </ul>
+                
+                    <!-- Properties button nav top right-->
+                    <ul class="rt_nav navbar navbar-right">
+                        <li>
+                            <a href="http://www.windowsontuscany.com/villas/" onclick="_gaq.push(['_trackEvent', 'outbound-widget-int', 'http://www.windowsontuscany.com/villas/', 'All Villas']);">Properties</a>
+                        </li>
+                    </ul>                              
 
             </nav>
         </div>
