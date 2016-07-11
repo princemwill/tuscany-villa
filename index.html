@@ -1,7 +1,7 @@
 ﻿<!DOCTYPE html>
 <html>
 <head>
-    <title></title>
+    <title>Tuscan Villa</title>
     <meta charset="utf-8" />
     <link rel="stylesheet" type="text/css" href="Content/bootstrap.min.css" />
     <link rel="stylesheet" type="text/css" href="Style.css" />
@@ -14,7 +14,7 @@
         <!-- "Top half" of page (made up of 2 image rows) -->
         <div class="container-fluid top_half">
             <!--Body content-->
-            <div class="row">
+            <div class="row1-2">
                 <!-- Left side of top half -->
                 <div class="col-sm-12 col-md-8 col-lg-9 th_left">
 
@@ -51,13 +51,13 @@
                         <span class="icon-bar"></span>
                     </button>
                     <!-- Nav left WOT_Logo home button-->
-                    <ul class="menu_logo">
+                    <ul id="menu_logo">
                         <li><a href="index.html"><img src="WOT_Logo.png" /></a></li>
                     </ul>
                 </div>
                 <!-- Collapsed menu settings/info -->
                 <div class="collapse navbar-collapse" id="myNavbar">
-                    <ul class="nav navbar-nav>
+                    <ul class="nav navbar-nav">
                         <li><a href="#about">ABOUT</a></li>
                         <li><a href="#cities">CITIES</a></li>
                         <li><a href="#contact">CONTACT</a></li>
@@ -65,13 +65,35 @@
                 </div>
                 
                     <!-- Properties button nav top right-->
-                    <ul class="rt_nav navbar navbar-right">
+                    <ul class="navbar-nav navbar-right" id="rt_nav"">
                         <li>
-                            <a href="http://www.windowsontuscany.com/villas/" onclick="_gaq.push(['_trackEvent', 'outbound-widget-int', 'http://www.windowsontuscany.com/villas/', 'All Villas']);">Properties</a>
+                            <a href="http://www.windowsontuscany.com/villas/"> PROPERTIES</a>
+                            <!-- Not sure all extra stuff here is needed -->
+                            <!-- <a href="http://www.windowsontuscany.com/villas/" onclick="_gaq.push(['_trackEvent', 'outbound-widget-int', 'http://www.windowsontuscany.com/villas/', 'All Villas']);">Properties</a> -->
                         </li>
                     </ul>                              
 
             </nav>
+        </div>
+        <!-- Bottom Half of page (made up of 3 rows with 4 coulmns each)-->
+        <div class="row3">
+            <!--<div class="col-sm-12 col-md-4 col-lg-3">-->
+                <div class="col-lg-3 col-md-4 col-sm-12 feature col1">
+                    <a class="thumbnail"><img src="map_overlay.png" /></a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-12 feature col2">
+                    <a class="thumbnail"><img src="map_overlay.png" /></a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-12 feature col3">
+                    <a class="thumbnail"><img src="map_overlay.png" /></a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-12 feature col4">
+                    <a class="thumbnail"><img src="map_overlay.png" /></a>
+                </div>
+                 
+              
+                
+            </div>
         </div>
 
 
