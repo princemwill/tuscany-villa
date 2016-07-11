@@ -15,12 +15,29 @@
 ul {
     list-style: none;
 }
-div .th_right {
+
+
+
+div .th_right {    
     height: 437.77px;
 }
-#mainMap {
+/*#mainMap {
+    background-image: url()
     height: 377.77px;
+}*/
+
+
+
+div .row3 .col2 {
+    background-image: url(wot_r3-c2.png);
+    height: 250px;
+    background-size: cover;
 }
+
+
+
+
+
 
 /*Social media links*/
 
