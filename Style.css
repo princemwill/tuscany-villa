@@ -5,12 +5,13 @@
     }
 
     .navbar .navbar-collapse {
-        /*display: inline-block;
-    float: none;
-    vertical-align: top;*/
+        display: inline-block;
+        float: none;
+        vertical-align: top;
         text-align: center;
     }
 }
+
 ul {
     list-style: none;
 }
